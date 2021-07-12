@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="lv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eko nams</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./scripts.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <li class="navbar__item"><a class="navbar__link" href="#">Kvalitāte</a></li>
+        <li class="navbar__item"><a class="navbar__link" href="#">Projekti</a></li>
+        <div class="navbar-dropdown">
+            <li class="navbar__item"><a class="navbar__link" href="#">Sadarbība</a></li>
+            <div class="navbar-dropdown__content">
+                <a href="#">Shēma</a>
+                <a href="#">Partneri</a>
+                <a href="#">Lorem Ipsum is simply dummy text of the printing</a>
+            </div>
+          </div>
+        <li class="navbar__item"><a class="navbar__link" href="#">Blogs</a></li>
+        <li class="navbar__item"><a class="navbar__link" href="#">Par mums</a></li>
+        <li class="navbar__item"><a class="navbar__link" href="#">Kontakti</a></li>
+        <span class="navbar__span">en</span>
+    </nav>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="./assets/burger-close.svg"
+                alt="close-icon"></a>
+        <div class="overlay__logo">
+            <img src="./assets/ekonams-logo.svg" alt="logo">
+        </div>
+        <div class="overlay__content">
+            <div class="overlay__languages">
+                <span>en</span>
+                <span>no</span>
+                <span>se</span>
+                <span>ru</span>
+                <span>lv</span>
+            </div>
+            <div class="dropdown">
+                <a class="dropdown__link" href="#">Kvalitte</a><button class="dropbtn"><i
+                        class="fas fa-caret-down"></i></button>
+                <div class="dropdown__content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a class="dropdown__link" href="#">Projekti</a><button class="dropbtn"><i
+                        class="fas fa-caret-down"></i></button>
+                <div class="dropdown__content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a class="dropdown__link" href="#">Sadarbība</a><button class="dropbtn"><i
+                        class="fas fa-caret-down"></i></button>
+                <div class="dropdown__content">
+                    <a href="#">Shēma</a>
+                    <a href="#">Partneri</a>
+                    <a href="#">Lorem Ipsum is simply dummy text of the printing</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a class="dropdown__link" href="#">Par mums</a><button class="dropbtn"><i
+                        class="fas fa-caret-down"></i></button>
+                <div class="dropdown__content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+            <a class="overlay__link" href="#">Blogs</a>
+            <a class="overlay__link" href="#">Kontakti</a>
+        </div>
+    </div>
+    <div class="icon-wrap">
+        <i class="fas fa-bars" onclick="openNav()"></i>
+    </div>
+    <header class="header">
+        <div class="header__video-wrapper">
+            <video class="header__video" autoplay muted>
+                <source src="./assets/mov_bbb.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="header__logo">
+            <img src="./assets/ekonams-logo.svg" alt="logo">
+        </div>
+        <div class="header__content">
+            <h1 class="header__heading">Guļbūvju ražošana īsti Skandināviskās tradīcijās</h1>
+            <img class="header__img" src="./assets/eko-nams-audio-mute.svg" alt="mute-icon">
+        </div>
+    </header>
+    <section class="section-one">
+        <div class="details">
+            <div class="details__column">
+                <h3 class="heading3">Ražošana</h3>
+                <div class="details__info details__info--full-width details__info--uppercase">
+                    <span>Digitāla</span>
+                </div>
+                <p class="details__text details__text--full-width">ietver tradīciju un kultūrvēsturiskā mantojuma
+                    glabāšanu</p>
+            </div>
+            <div class="details__column">
+                <h3 class="heading3">Tehnoloģija un Pieredze</h3>
+                <div class="details__info-wrapper">
+                    <div class="details__info details__info--uppercase">
+                        <span>Cad Cam</span>
+                    </div>
+                    <div class="details__info">
+                        <span>20 gadi</span>
+                    </div>
+                </div>
+                <div class="details__info-wrapper">
+                    <p class="details__text">unikāla šīs metodes adaptācija</p>
+                    <p class="details__text">un 17 gadu pieredze ar CNC iekārtām</p>
+                </div>
+            </div>
+            <div class="details__column">
+                <h3 class="heading3">Apjomi un Kapacitāte</h3>
+                <div class="details__info-wrapper">
+                    <div class="details__info details__info--number">
+                        <span>670+</span>
+                    </div>
+                    <div class="details__info">
+                        <span>30 000 m</span>
+                    </div>
+                </div>
+                <div class="details__info-wrapper">
+                    <p class="details__text">piegādātas guļbūves</p>
+                    <p class="details__text">ražošanas telpu platība</p>
+                </div>
+            </div>
+            <div class="details__column">
+                <h3 class="heading3">Kvalitāte un Garantija</h3>
+                <div class="details__info-wrapper">
+                    <div class="details__info">
+                        <span>0,5 mm</span>
+                    </div>
+                    <div class="details__info">
+                        <span>98%</span>
+                    </div>
+                </div>
+                <div class="details__info-wrapper">
+                    <p class="details__text">apstrādes precizitāte</p>
+                    <p class="details__text">eksports. Ražots Latvijā.</p>
+                </div>
+            </div>
+        </div>
+        <div class="ruler-img">
+            <img src="./assets/lineala-raksts.svg" alt="ruler">
+        </div>
+    </section>
+    <section class="second-section">
+        <div class="products">
+            <div class="products__column products__column--left">
+                <h2 class="products__heading">Produkts</h2>
+                <p class="products__text">Guļbūve ir viena no senākajām ēku konstrukcijām, kura, nezaudējot savu īpašo
+                    vērtību un nozīmi, saglabājusies līdz pat mūsdienām. Aizvien vairāk pilsētnieku izjūt nepieciešamību
+                    dzīvot ekoloģiski tīrā un mājīgā vidē, būt harmonijā ar dabu, ar sevi. Meistarīgi veidota guļbūve
+                    apvienojumā ar modernām tehnoloģijām palīdz šos sapņus realizēt dzīvē.</p>
+                <a class="products__link" href="#">Vairāk par produktu</a>
+            </div>
+            <div class="products__column products__column--right">
+                <div class="products__img-wrapper">
+                    <img class="pruducts__img" src="./assets/Rectangle Copy 3.jpg" alt="products">
+                </div>
+                <div class="products__ractangle"></div>
+            </div>
+        </div>
+    </section>
+    <section class="third-section">
+        <div class="left-ractangle"></div>
+        <div class="spotlights">
+            <h2 class="spotlights__heading">Aktualitātes</h2>
+            <div class="spotlights__main-wrapper">
+                <div class="spotlights__img-wrapper spotlights__img-wrapper--one">
+                    <div class="mask "></div>
+                    <img class="spotlights__img spotlights__img--one" src="./assets/veggtykkelser-2160x1453.jpg"
+                        alt="house">
+                    <h3 class="heading3 heading3--left-align heading3--one">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</h3>
+                </div>
+                <div class="spotlights__img-wrapper spotlights__img-wrapper--two">
+                    <div class="mask "></div>
+                    <img class="spotlights__img spotlights__img--two" src="./assets/Group 23.jpg" alt="interior">
+                    <h3 class="heading3 heading3--left-align heading3--two">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fourth-section">
+        <div class="map-wrapper">
+            <h2 class="map__heading">Produkcijas realizācija Skandināvijā</h2>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8191933.571034352!2d-5.7383265210835175!3d59.91581650310707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e61f267f039%3A0x7e92605fd3231e9a!2sOslo%2C%20Norway!5e0!3m2!1sen!2slv!4v1626075687663!5m2!1sen!2slv" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="footer__logo-wrapper">
+                <img src="./assets/eko-nams-logo-footer.svg" alt="footer-logo">
+            </div>
+            <div class="footer__link-wrapper">
+                <a href="#" class="footer__link">Lejuplādes</a>
+                <a href="#" class="footer__link">Sīkdatnes noteikumi </a>
+                <a href="#" class="footer__link">Privātuma poltika</a>
+            </div>
+        </div>
+        <div class="footer__ruler-wrapper">
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__copyright-wrapper">
+                <p class="footer__copyright">© 2020 EKO NAMS. Visas tiesības aizsargātas</p>
+            </div>
+            <img class="footer__agency-logo" src="./assets/_caballero-digital-agency.svg"
+                alt="caballero-digital-agency-logo">
+            <div class="footer__social-icon-wrapper">
+                <a href="#" class="footer__icon"><img src="./assets/logo-fb-simple.svg" alt="facebook logo"></a>
+                <a href="#" class="footer__icon"><img src="./assets/linkedin (2).svg" alt="linkedin logo"></a>
+                <a href="#" class="footer__icon"><img src="./assets/logo-youtube.svg" alt="youtube logo"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
